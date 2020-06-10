@@ -1,35 +1,37 @@
-# C++源代码
-ipch/
-Release/
-
-*.sdf
-*.sln
-*.suo
-*.exp
-*.pdb
-*.filters
-*.vcxproj
-*.cd
-
-# Python编译文件
+# Python
 *.pyc
+*.pyo
+*.egg-info/
 
-# WingIDE文件
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode
+.idea
 *.wpr
 *.wpu
+.vs
+x64
 
-# 压缩文件
-*.zip
+# Temp
+build
+dist
+*.local
 
-# API的.con文件
-*.con
+# vn.py
+.vntrader
 
-# visual studio
-*.opensdf
+# Visual Studio intermediate files
+*.exp
+*.iobj
+*.ipdb
+*.pdb
 
-# 本地持久化文件
-*.vn
+# Documents
+_build
+_static
+_templates
 
-# word文档
-*.doc
-*.docx
+# Misc
+.DS_Store
